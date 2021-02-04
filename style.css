@@ -11,11 +11,9 @@
 .text-roboto {font-family: roboto;}
 /*fonts end*/
 /*global css*/
-body {color: #000a0c;}
-.container {padding: 20px 10px; margin: auto}
-h3, h5,h6{color: #07657B;font-weight: bold}
-.hr {width: 60px; border: 1px solid #07657B}
-.h {width: 600px; border: 1px solid #f6f6f6}
+
+#contact .container {padding: 20px 10px; margin: auto}
+
 .btn-color{background-color: #DD4F13; border: none;border-radius: 20px;}
 .btn-color:hover{background-color: #F27023; box-shadow: 15px 15px 20px #DD4F13;}
 /*img{width: 100%; height: auto;}*/
@@ -23,34 +21,25 @@ h3, h5,h6{color: #07657B;font-weight: bold}
 
 
 /*portfolio end*/
-.contact{background-color: #F8F9FA}
-.contact i{background-color: #DD4F13; height: 50px; width: 50px; text-align: center; padding-top: 12px; color: #fff;}
+ .contact{background-color: #F8F9FA}
+ .contact i{background-color: #DD4F13; height: 50px; width: 50px; text-align: center; padding-top: 12px; color: #fff;}
 
-.footer-top{background-color: #F27023; color: #e0dad7;}
-.footer-links ul{list-style-type: none;}
-.footer-links i{margin-left: -25px}
-.footer-top li a{color: #e6e6e6;text-decoration: none;}
-.footer-top li a:hover{color: #982d00; }
+#footer .footer-top{background-color: #F27023; color: #e0dad7;}
+#footer .footer-links ul{list-style-type: none;}
+#footer .footer-links i{margin-left: -25px}
+#footer .footer-top li a{color: #e6e6e6;text-decoration: none;}
+#footer .footer-top li a:hover{color: #982d00; }
 
 
-.social-link i{margin: 0 5px; font-size: 20px;color: #E6E6E6;}
-.social-link i:hover{color: #7E4CA1;}
-.footer-bottom{background-color: #DD4F13;}
-.footer-bottom .design-by{text-align: right}
-.footer-bottom .container{padding: 20px; color: #e6e6e6;} 
+#footer .social-link i{margin: 0 5px; font-size: 20px;color: #E6E6E6;}
+#footer .social-link i:hover{color: #7E4CA1;}
+#footer .footer-bottom{background-color: #DD4F13;}
+#footer .footer-bottom .design-by{text-align: right}
+#footer .footer-bottom .container{padding: 20px; color: #e6e6e6;} 
 
-/*device responsive media query*/
-@media only screen and (max-width: 800px){
-    .header-slider h2{font-size: 33px;}
-    .header-slider{text-align: center !important;}
-    .header-slider button{font-size: 15px}
-    .header-slider .row{text-align: center}
-    .carousel-caption{top: 30%}
-}
+
 @media only screen and (max-width: 768px){
-    .footer-bottom,.lets-talk{text-align: center}
-    .footer-bottom .design-by, .talk-btn{text-align: center; margin-top: 4px;}
+  #footer.footer-bottom{text-align: center}
+   .footer-bottom .design-by{text-align: center; }
 }
-@media only screen and (max-width: 600px){
-    #portfolio{display: none;}
-}
+
